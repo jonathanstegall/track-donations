@@ -20,3 +20,9 @@ Web app used to track donations based on how much you tell it you make, how much
 1. Forms above
 2. How much you've already given this time period in total and percentage of tracked income
 3. How much you have left to give this time period if you want to meet your goal (can be negative if you go over)
+
+## Data storage
+
+I'm not convinced any of this data needs to be stored on a server. Maybe if it's somehow anonymized? But I think storing it locally on the user's device (with HTML5 or whatever) is perhaps better than dealing with the privacy implications of people storing what percentage people want to give away, what amounts they receive, and what amounts they give away.
+
+While storing the data locally does make it volatile in its on way, to device loss or data expiration or any number of things, it seems worthwhile. Maybe remind users to export it from time to time if they want to save it somewhere.
