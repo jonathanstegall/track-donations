@@ -23,6 +23,6 @@ Web app used to track donations based on how much you tell it you make, how much
 
 ## Data storage
 
-I'm not convinced any of this data needs to be stored on a server. Maybe if it's somehow anonymized? But I think storing it locally on the user's device (with HTML5 or whatever) is perhaps better than dealing with the privacy implications of people storing what percentage people want to give away, what amounts they receive, and what amounts they give away.
+I'm not convinced any of this data needs to be stored on a server. Maybe if it's somehow anonymized? But I think storing it locally on the user's device (with HTML5 or whatever) is perhaps better than dealing with the privacy implications of storing what percentage people want to give away, what amounts they say they actually receive, and what amounts they say they actually give away.
 
-While storing the data locally does make it volatile in its on way, to device loss or data expiration or any number of things, it seems worthwhile. Maybe remind users to export it from time to time if they want to save it somewhere.
+While storing the data locally does make it volatile in its own way, to device loss or data expiration or any number of things, it seems worthwhile. Maybe remind users to export it from time to time if they want to save it somewhere.
